@@ -20,7 +20,7 @@ function isUnsupportedHistory(history) {
   return history && history.getCurrentLocation
 }
 
-const { func, object } = React.PropTypes
+import { func, object } from 'prop-types'
 
 /**
  * A <Router> is a high-level API for automatically setting up

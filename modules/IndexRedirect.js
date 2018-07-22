@@ -4,7 +4,7 @@ import invariant from 'invariant'
 import Redirect from './Redirect'
 import { falsy } from './InternalPropTypes'
 
-const { string, object } = React.PropTypes
+import { string, object} from 'prop-types'
 
 /**
  * An <IndexRedirect> is used to redirect from an indexRoute.

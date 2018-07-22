@@ -4,7 +4,7 @@ import { createRouteFromReactElement } from './RouteUtils'
 import { formatPattern } from './PatternUtils'
 import { falsy } from './InternalPropTypes'
 
-const { string, object } = React.PropTypes
+import { string, object } from 'prop-types'
 
 /**
  * A <Redirect> is used to declare another URL path a client should
